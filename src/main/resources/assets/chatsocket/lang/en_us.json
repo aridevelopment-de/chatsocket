@@ -1,0 +1,10 @@
+{
+  "text.config.chatsocket-config.title": "Chatsocket-Config",
+
+  "text.config.chatsocket-config.option.port": "Port",
+  "text.config.chatsocket-config.option.host": "Hostname",
+  "text.config.chatsocket-config.option.enableChatSocket": "Enable Socket Server?",
+  "text.config.chatsocket-config.option.communicationType": "Communication Types",
+  "text.config.chatsocket-config.option.communicationType.value.plain_text": "Plain Text",
+  "text.config.chatsocket-config.option.communicationType.value.json": "JSON"
+}
