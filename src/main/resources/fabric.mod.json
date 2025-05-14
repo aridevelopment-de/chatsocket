@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://ari24.dev/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/aridevelopment-de/chatsocket"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/chatsocket/icon.png",
