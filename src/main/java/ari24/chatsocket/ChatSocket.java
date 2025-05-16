@@ -33,7 +33,8 @@ public class ChatSocket implements ModInitializer {
         });
 
 		ClientReceiveMessageEvents.GAME.register((message, overlay) -> {
-			server.handleGameMessage(message, overlay);
+			if (overlay) return;  // Don't want actionbar messages
+			server.handleGameMessage(message);
 		});
 
 		ClientLifecycleEvents.CLIENT_STOPPING.register((client) -> {

@@ -130,7 +130,7 @@ public class ChatsocketServer extends WebSocketServer {
         this.broadcast(object.toString());
     }
 
-    public void handleGameMessage(Component message, boolean overlay) {
+    public void handleGameMessage(Component message) {
         if (ChatSocket.CONFIG.communicationType() == BaseConfigModel.CommunicationType.PLAIN_TEXT) {
             this.broadcast(message.getString());
             return;
@@ -139,7 +139,6 @@ public class ChatsocketServer extends WebSocketServer {
         JsonObject object = new JsonObject();
         object.addProperty("messageString", message.getString());
         object.addProperty("type", "game");
-        object.addProperty("overlay", overlay);
         this.broadcast(object.toString());
     }
 }

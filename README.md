@@ -55,8 +55,7 @@ The following JSON objects are being sent:
 // most of the time these are being sent by the server
 {
   "type": "game",
-  "messageString": "Hello World",
-  "overlay": false,
+  "messageString": "Hello World"
 }
 ````
 
