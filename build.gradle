@@ -30,7 +30,8 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// org.java-websocket
-	modImplementation "org.java-websocket:Java-WebSocket:${project.java_websocket_version}"
+	implementation "org.java-websocket:Java-WebSocket:${project.java_websocket_version}"
+	include "org.java-websocket:Java-WebSocket:${project.java_websocket_version}"
 
 	// owo
 	modImplementation "io.wispforest:owo-lib:${project.owo_version}"
